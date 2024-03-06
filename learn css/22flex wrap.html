@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .flex{
+            display: flex;
+        }
+        h1{
+            border: 3px solid red;
+            background-color: green;
+            margin: 10px;
+            padding: 10px;
+        }
+        .sflexbox{
+            display: flex;
+        }
+        .flexdirection{
+            background-color: red;
+            display: flex;
+            /* flex-direction: column; */
+            flex-direction: row;
+        }
+        h5{
+            border: 2px solid black;
+            margin: 2px;
+            padding: 5px;
+        }
+        .flex-wrap{
+            background-color: aqua;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .flex-wrap > h3{
+            background: white;
+            margin: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <h1>Col-1</h1>
+        <h1>Col-2</h1>
+        <h1>Col-3</h1>
+        <h1>Col-3</h1>
+        <h1>Col-3</h1>
+        <h1>Col-3</h1>
+        <h1>Col-3</h1>
+        <h1>Col-3</h1>
+        <h1>Col-3</h1>
+    </div>
+
+    <div class="sflexbox">
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, possimus.</div>
+        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, possimus.</div>
+    </div>
+
+     <div class="flexdirection">
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <h5>Lorem ipsum dolor sit amet.</h5>
+     </div>
+
+     <div class="flex-wrap">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+     </div>
+   
+</body>
+</html>

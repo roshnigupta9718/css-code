@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex{display:flex;}
+        h1{border:3px solid red;
+        background-color: green;
+    margin:10px;
+padding:10px;}
+.sflexbox{display:flex;}
+.flexdirection{background-color: red;
+display:flex;
+flex-direction: row;
+}
+h5{border:2px solid black;
+margin:2px;
+padding:5px;}
+.flex-wrap{background-color:aqua;
+display:flex;
+flex-wrap:wrap;}
+.flex-wrap>h3{
+    background:white;
+    margin:10px;
+    width:200px;
+}
+.flex-reverse{display:flex;
+flex-direction: row-reverse;}
+.jcontent{border:2px solid blue;
+display:flex;
+/* justify-content: centre;
+justify-content: start; */
+justify-content: center;}
+ .aling{
+     
+    height:500px;
+    background-color: yellow;
+    display:flex;
+align-items:center;justify-content: center;
+
+ 
+
+}
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <h1>col-1</h1>
+        <h1>col2</h1>
+        <h1>col3</h1>
+    </div>
+    <div class="sflexbox">
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+    </div>
+    <div class="flexdirection">
+        <h5>Lorem ipsum dolor sit.</h5>
+        <h5>Lorem ipsum dolor sit amet.</h5>
+        <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+    </div>
+    <div class="flex-wrap">
+        <h3>Lorem ipsum dolor sit.</h3>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <h3>Lorem ipsum dolor sit.</h3>
+        <h3>Lorem ipsum dolor sit.</h3>
+
+    </div>
+    <div class="flex-reverse">
+        <h6>col5</h6>
+    <h6>col6</h6>
+    <h6>col7</h6>
+    <h6>col8</h6></div>
+    <h2></h2>
+    <div class="jcontent">
+    <h2 style="border:2px solid red;">1</h2>
+    <h2 style="border:2px solid red;">2</h2>
+    <h2 style="border:2px solid red;">3</h2></div>
+<div class="aling">
+    <h2 style="border:2px solid red;">1</h2>
+    <h2 style="border:2px solid red;">2</h2>
+    <h2 style="border:2px solid red;">3</h2>
+    <h2 style="border:2px solid red;">4</h2>
+    <h2 style="border:2px solid red;">5</h2>
+    <h2 style="border:2px solid red;">6</h2>
+</div>
+</body>
+</html>

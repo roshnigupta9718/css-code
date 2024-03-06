@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* element selector */
+      /* h1 {
+        color: red;
+      }
+      #testid {
+        color: yellow;
+      }
+      .testclass {
+        color: blue;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        height: 0;
+        width: 0;
+      } */
+      /* decendent selector */
+      div.box p {
+        color: blue;
+      }
+      /* child selector */
+      div.childselector > p {
+        background: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Lorem ipsum dolor sit.</h1>
+    <!-- id -->
+    <h1 id="testid">Lorem ipsum dolor sit.</h1>
+    <div class="testclass">Lorem, ipsum dolor.</div>
+    <!-- combinator  decendent selector -->
+    <div class="box">
+      <h1>Lorem, ipsum dolor.</h1>
+      <h2>Lorem, ipsum.</h2>
+      <p>Lorem ipsum dolor sit.</p>
+      <p>Lorem ipsum dolor sit.</p>
+      <div class="under">
+        <p>Lorem ipsum, dolor sit amet consectetur .</p>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+    </div>
+    <div class="childselector">
+      <h1>Lorem, ipsum dolor.</h1>
+      <h2>Lorem, ipsum.</h2>
+      <p>Lorem ipsum dolor sit.</p>
+      <p>Lorem ipsum dolor sit.</p>
+      <div class="under">
+        <p>Lorem ipsum, dolor sit amet consectetur .</p>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+    </div>
+    <!--    simple selector 
+   1 element selector
+   2 id  3class
+   4 universal -->
+    <!-- combinator selector
+   1decendent 
+   2child 
+  3 adjacent sibling selectoir -->
+    <!-- attribute -->
+    <!-- pseudo selector -->
+  </body>
+</html>
